@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Airplane01.ma
-//Last modified: Tue, Jan 31, 2017 03:34:22 PM
+//Last modified: Tue, Jan 31, 2017 03:38:56 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";

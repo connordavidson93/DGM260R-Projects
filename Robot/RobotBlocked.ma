@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: RobotBlocked.ma
-//Last modified: Tue, Feb 07, 2017 03:34:11 PM
+//Last modified: Tue, Feb 07, 2017 03:40:01 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "E869EC1B-5044-5AD8-2ED0-12BF501B410E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1.1842118681795775 0.793870278351406 48.454884436409678 ;
-	setAttr ".r" -type "double3" -0.93835272911782508 721.39999999990391 -1.3981220477208629e-17 ;
+	setAttr ".t" -type "double3" 12.710430462597255 24.92218834515592 39.588355599310553 ;
+	setAttr ".r" -type "double3" -30.938352729118307 737.79999999989582 8.3511618948703013e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D5379E28-EF45-ADC9-271A-C38A9D322FA1";
 	setAttr -k off ".v" no;

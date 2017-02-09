@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: RobotArmsLegs.ma
-//Last modified: Thu, Feb 09, 2017 04:05:08 PM
+//Last modified: Thu, Feb 09, 2017 04:08:00 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;

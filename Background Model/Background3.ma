@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Background3.ma
-//Last modified: Thu, Mar 30, 2017 03:27:36 PM
+//Last modified: Thu, Mar 30, 2017 03:32:09 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -14,8 +14,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "0F293BB9-894D-77B7-5DEB-AD99927677EE";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -8.4255934197304168 4.14314274989363 17.739706454536016 ;
-	setAttr ".r" -type "double3" -6.9383526577206718 -2534.9999999905199 0 ;
+	setAttr ".t" -type "double3" -1.3926353379791432 4.4030149927599114 18.545435699866971 ;
+	setAttr ".r" -type "double3" -7.5383526577297619 -2518.5999999902829 -2.3612727917162293e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "12096D87-DB4C-9724-7631-20A3A5A22FA4";
 	setAttr -k off ".v" no;
